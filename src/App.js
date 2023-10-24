@@ -15,7 +15,7 @@ const WORDS = Object.freeze([
   'DOZER',
 ])
 
-const LETTERSTATES = ['indeterminate', 'correct', 'present', 'absent']
+// LETTERSTATES: ['indeterminate', 'correct', 'present', 'absent']
 
 const KEYBOARD_LAYOUT = [
   ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
@@ -118,7 +118,7 @@ function Wordle({triesCount}) {
   // Handling row validation, updating keyboard status, and game state
   function rowValidation() {
     if(gameState!=='PENDING') return
-    const [row,_] = position
+    const row = position[0]
     let newTriesRecord = [...triesRecord]
     let updateKeyboardStatus = {}
     let validationRow = newTriesRecord[row].map(({val}, i) => {
