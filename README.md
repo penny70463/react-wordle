@@ -3,6 +3,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
+  - [Available Scrpits](#available-scripts)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -29,6 +30,18 @@ For developers:
 - Solution URL: [here](https://github.com/penny70463/react-wordle)
 - Live Site URL: [here](https://penny70463.github.io/react-wordle/)
 
+### Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
 ## My process
 
 ### Built with
@@ -43,3 +56,5 @@ For developers:
 ### Useful resources
 
 - [resource 1](https://devangtomar.medium.com/using-github-pages-and-github-actions-to-deploy-a-react-app-9f679b5e256b) - This helped me to build CI/CD step by step.
+
+
